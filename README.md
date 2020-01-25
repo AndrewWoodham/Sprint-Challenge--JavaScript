@@ -28,15 +28,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+1. Describe the biggest difference between `.forEach` & `.map`. .forEach allows expanding of the array while .map stays at the arrays original size
 
 2. What is the difference between a function and a method?
 
 3. What is closure?
 
-4. Describe the four rules of the 'this' keyword.
+4. Describe the four rules of the 'this' keyword. they are four different binding rules, Global, Implicit, Explicit, and Constructor Calls, all of which store the this keyword on a different level
 
-5. Why do we need super() in an extended class?
+5. Why do we need super() in an extended class? To pull down paramaters and prototypes from it's parent classes
 
 ## Project Set up
 
