@@ -93,12 +93,11 @@ console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
 const unisWithUni = [];
-function unisfunction(){
-if(universities.includes(`Uni`) >= true){
-  unisWithUni.push(universities);
-} else null;
-
-};
+for (let i = 0; i < universities.length; i++) {
+  if (universities[i].includes(`Uni`) ){
+    unisWithUni.push(universities[i]);
+  }
+}
 console.log(unisWithUni);
 
 
@@ -142,10 +141,12 @@ console.log(lowCaseAnimalNames);
 
 The zoos are concerned about animals with a lower population count. Using filter, create a new array of objects called lowPopulationAnimals which contains only the animals with a population less than 5.
 
-*/const popeval = (e) => e.population < 5;
+*/
+const popeval = (e) => e.population < 5;
 
 const lowPopulationAnimals = zooAnimals.filter(popeval);
 
+console.log(lowPopulationAnimals)
 
 
 
